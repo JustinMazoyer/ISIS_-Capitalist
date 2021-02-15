@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <world>
     <name>Terre</name>
-    <logo>str1234</logo>
+    <logo>icones/kanto.png</logo>
     <money>0</money>
     <score>0</score>
     <totalangels>0</totalangels>
@@ -12,7 +12,7 @@
         <product>
             <id>1</id>
             <name>Pikachu</name>
-            <logo>str1234</logo>
+            <logo>icones/Pikachu.jfif</logo>
             <cout>4</cout>
             <croissance>1.07</croissance>
             <revenu>1</revenu>
@@ -35,7 +35,7 @@
         <product>
             <id>2</id>
             <name>Racaillou</name>
-            <logo>str1234</logo>
+            <logo>icones/Racaillou.jfif</logo>
             <cout>60</cout>
             <croissance>1.15</croissance>
             <revenu>60</revenu>
@@ -46,7 +46,30 @@
             <palliers>
                 <pallier>
                     <name>Expert en Racaillou</name>
-                    <logo>http://localhost:8080/icones/Racaillou.jfif</logo>
+                    <logo>icones/Racaillou.jfif</logo>
+                    <seuil>1000</seuil>
+                    <idcible>2</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>ange</typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+            </palliers>
+        </product>
+         <product>
+            <id>3</id>
+            <name>Dracaufeu</name>
+            <logo>icones/Dracaufeu.jfif</logo>
+            <cout>60</cout>
+            <croissance>1.15</croissance>
+            <revenu>60</revenu>
+            <vitesse>3</vitesse>
+            <quantite>0</quantite>
+            <timeleft>3</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Expert en Dracaufeu</name>
+                    <logo>icones/Racaillou.jfif</logo>
                     <seuil>1000</seuil>
                     <idcible>2</idcible>
                     <ratio>2</ratio>
