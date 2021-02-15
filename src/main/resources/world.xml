@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <world>
-    <name>Terre</name>
-    <logo>icones/kanto.png</logo>
+    <name>Kanto</name>
+    <logo>icones/Kanto.png</logo>
     <money>0</money>
     <score>0</score>
     <totalangels>0</totalangels>
@@ -55,7 +55,7 @@
                 </pallier>
             </palliers>
         </product>
-         <product>
+        <product>
             <id>3</id>
             <name>Dracaufeu</name>
             <logo>icones/Dracaufeu.jfif</logo>
