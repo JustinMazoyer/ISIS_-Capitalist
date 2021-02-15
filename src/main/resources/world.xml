@@ -60,7 +60,7 @@
             <name>Dracaufeu</name>
             <logo>icones/Dracaufeu.jfif</logo>
             <cout>60</cout>
-            <croissance>1.15</croissance>
+            <croissance>1.25</croissance>
             <revenu>60</revenu>
             <vitesse>3</vitesse>
             <quantite>0</quantite>
@@ -71,8 +71,77 @@
                     <name>Expert en Dracaufeu</name>
                     <logo>icones/Racaillou.jfif</logo>
                     <seuil>1000</seuil>
-                    <idcible>2</idcible>
+                    <idcible>3</idcible>
                     <ratio>2</ratio>
+                    <typeratio>ange</typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>4</id>
+            <name>Hypocéan</name>
+            <logo>icones/Hypocéan.jfif</logo>
+            <cout>100</cout>
+            <croissance>1.30</croissance>
+            <revenu>150</revenu>
+            <vitesse>0.5</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0.5</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Expert en Hypocéan</name>
+                    <logo>str1234</logo>
+                    <seuil>1000</seuil>
+                    <idcible>4</idcible>
+                    <ratio>1</ratio>
+                    <typeratio>ange</typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+            </palliers>
+        </product>
+         <product>
+            <id>5</id>
+            <name>Carchacrok</name>
+            <logo>icones/Carchacrok.jfif</logo>
+            <cout>150</cout>
+            <croissance>1.40</croissance>
+            <revenu>180</revenu>
+            <vitesse>0.5</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0.5</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Expert en Carchacrok</name>
+                    <logo>str1234</logo>
+                    <seuil>1000</seuil>
+                    <idcible>5</idcible>
+                    <ratio>1</ratio>
+                    <typeratio>ange</typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+            </palliers>
+        </product>
+         <product>
+            <id>6</id>
+            <name>Tortank</name>
+            <logo>icones/Tortank.jfif</logo>
+            <cout>100</cout>
+            <croissance>1.30</croissance>
+            <revenu>150</revenu>
+            <vitesse>0.5</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0.5</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Expert en Tortank</name>
+                    <logo>str1234</logo>
+                    <seuil>1000</seuil>
+                    <idcible>6</idcible>
+                    <ratio>1</ratio>
                     <typeratio>ange</typeratio>
                     <unlocked></unlocked>
                 </pallier>
@@ -199,6 +268,168 @@
             <typeratio>vitesse</typeratio>
             <unlocked>false</unlocked>
         </pallier>
+          <pallier>
+            <name>DracaufeuGainXP x2</name>
+            <logo>str1234</logo>
+            <seuil>1000</seuil>
+            <idcible>3</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>DracaufeuGainXP x3</name>
+            <logo>str1234</logo>
+            <seuil>100000</seuil>
+            <idcible>3</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>DracaufeuGainXP x5</name>
+            <logo>str1234</logo>
+            <seuil>100000000</seuil>
+            <idcible>3</idcible>
+            <ratio>5</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+         <pallier>
+            <name>HypocéanEntrainement x2</name>
+            <logo>str1234</logo>
+            <seuil>10000</seuil>
+            <idcible>4</idcible>
+            <ratio>2</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+          <pallier>
+            <name>HypocéanEntrainement x4</name>
+            <logo>str1234</logo>
+            <seuil>1000000000</seuil>
+            <idcible>4</idcible>
+            <ratio>4</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+          <pallier>
+            <name>HypocéanGainXP x2</name>
+            <logo>str1234</logo>
+            <seuil>1000</seuil>
+            <idcible>4</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>HypocéanGainXP x3</name>
+            <logo>str1234</logo>
+            <seuil>100000</seuil>
+            <idcible>4</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>HypocéanGainXP x5</name>
+            <logo>str1234</logo>
+            <seuil>100000000</seuil>
+            <idcible>4</idcible>
+            <ratio>5</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+         <pallier>
+            <name>CarchacrokEntrainement x2</name>
+            <logo>str1234</logo>
+            <seuil>10000</seuil>
+            <idcible>5</idcible>
+            <ratio>2</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+          <pallier>
+            <name>CarchacrokEntrainement x4</name>
+            <logo>str1234</logo>
+            <seuil>1000000000</seuil>
+            <idcible>5</idcible>
+            <ratio>4</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+          <pallier>
+            <name>CarchacrokGainXP x2</name>
+            <logo>str1234</logo>
+            <seuil>1000</seuil>
+            <idcible>5</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>CarchacrokGainXP x3</name>
+            <logo>str1234</logo>
+            <seuil>100000</seuil>
+            <idcible>5</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>CarchacrokGainXP x5</name>
+            <logo>str1234</logo>
+            <seuil>100000000</seuil>
+            <idcible>5</idcible>
+            <ratio>5</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+         <pallier>
+            <name>TortankEntrainement x2</name>
+            <logo>str1234</logo>
+            <seuil>10000</seuil>
+            <idcible>6</idcible>
+            <ratio>2</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+          <pallier>
+            <name>TortankEntrainement x4</name>
+            <logo>str1234</logo>
+            <seuil>1000000000</seuil>
+            <idcible>6</idcible>
+            <ratio>4</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+          <pallier>
+            <name>TortankGainXP x2</name>
+            <logo>str1234</logo>
+            <seuil>1000</seuil>
+            <idcible>6</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>TortankGainXP x3</name>
+            <logo>str1234</logo>
+            <seuil>100000</seuil>
+            <idcible>6</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>TortankainXP x5</name>
+            <logo>str1234</logo>
+            <seuil>100000000</seuil>
+            <idcible>6</idcible>
+            <ratio>5</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
     </upgrades>
     <angelupgrades>
         <pallier>
@@ -214,7 +445,7 @@
     <managers>
         <pallier>
             <name>Sacha</name>
-            <logo>str1234</logo>
+            <logo>icones/Sacha.jfif</logo>
             <seuil>1000</seuil>
             <idcible>1</idcible>
             <ratio>null</ratio>
@@ -223,12 +454,48 @@
         </pallier>
         <pallier>
             <name>Pierre</name>
-            <logo>str1234</logo>
+            <logo>icones/Pierre.jfif</logo>
             <seuil>15000</seuil>
             <idcible>2</idcible>
             <ratio>null</ratio>
             <typeratio>null</typeratio>
-            <unlocked>fakse</unlocked>
+            <unlocked>false</unlocked>
+        </pallier>
+         <pallier>
+            <name>Chen</name>
+            <logo>icones/Chen.jfif</logo>
+            <seuil>50000</seuil>
+            <idcible>3</idcible>
+            <ratio>null</ratio>
+            <typeratio>null</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>Ondine</name>
+            <logo>icones/Ondine.jfif</logo>
+            <seuil>100000</seuil>
+            <idcible>4</idcible>
+            <ratio>null</ratio>
+            <typeratio>null</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>Cynthia</name>
+            <logo>icones/Cynthia.jfif</logo>
+            <seuil>100000</seuil>
+            <idcible>5</idcible>
+            <ratio>null</ratio>
+            <typeratio>null</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>Blue</name>
+            <logo>icones/Blue.jfif</logo>
+            <seuil>100000</seuil>
+            <idcible>4</idcible>
+            <ratio>null</ratio>
+            <typeratio>null</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
     </managers>
 </world>
