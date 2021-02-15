@@ -181,6 +181,15 @@
             <typeratio>gain</typeratio>
             <unlocked>false</unlocked>
         </pallier>
+        <pallier>
+            <name>DracaufeuEntrainement x2</name>
+            <logo>str1234</logo>
+            <seuil>10000</seuil>
+            <idcible>1</idcible>
+            <ratio>2</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
     </upgrades>
     <angelupgrades>
         <pallier>
