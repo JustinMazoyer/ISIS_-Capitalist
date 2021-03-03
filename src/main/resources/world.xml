@@ -16,9 +16,9 @@
             <cout>4</cout>
             <croissance>1.07</croissance>
             <revenu>1</revenu>
-            <vitesse>0.5</vitesse>
+            <vitesse>1000</vitesse>
             <quantite>0</quantite>
-            <timeleft>0.5</timeleft>
+            <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
@@ -36,12 +36,12 @@
             <id>2</id>
             <name>Racaillou</name>
             <logo>icones/Racaillou.jfif</logo>
-            <cout>60</cout>
+            <cout>50</cout>
             <croissance>1.15</croissance>
-            <revenu>60</revenu>
-            <vitesse>3</vitesse>
+            <revenu>10</revenu>
+            <vitesse>3000</vitesse>
             <quantite>0</quantite>
-            <timeleft>3</timeleft>
+            <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
@@ -59,12 +59,12 @@
             <id>3</id>
             <name>Dracaufeu</name>
             <logo>icones/Dracaufeu.jfif</logo>
-            <cout>60</cout>
+            <cout>500</cout>
             <croissance>1.25</croissance>
-            <revenu>60</revenu>
-            <vitesse>3</vitesse>
+            <revenu>100</revenu>
+            <vitesse>5000</vitesse>
             <quantite>0</quantite>
-            <timeleft>3</timeleft>
+            <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
@@ -82,12 +82,12 @@
             <id>4</id>
             <name>Hypocéan</name>
             <logo>icones/Hypocéan.jfif</logo>
-            <cout>100</cout>
+            <cout>3000</cout>
             <croissance>1.30</croissance>
-            <revenu>150</revenu>
-            <vitesse>0.5</vitesse>
+            <revenu>500</revenu>
+            <vitesse>10000</vitesse>
             <quantite>0</quantite>
-            <timeleft>0.5</timeleft>
+            <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
@@ -105,12 +105,12 @@
             <id>5</id>
             <name>Carchacrok</name>
             <logo>icones/Carchacrok.jfif</logo>
-            <cout>150</cout>
+            <cout>10000</cout>
             <croissance>1.40</croissance>
-            <revenu>180</revenu>
-            <vitesse>0.5</vitesse>
+            <revenu>1500</revenu>
+            <vitesse>20000</vitesse>
             <quantite>0</quantite>
-            <timeleft>0.5</timeleft>
+            <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
@@ -128,12 +128,12 @@
             <id>6</id>
             <name>Tortank</name>
             <logo>icones/Tortank.jfif</logo>
-            <cout>100</cout>
+            <cout>100000</cout>
             <croissance>1.30</croissance>
-            <revenu>150</revenu>
-            <vitesse>0.5</vitesse>
+            <revenu>5000</revenu>
+            <vitesse>30000</vitesse>
             <quantite>0</quantite>
-            <timeleft>0.5</timeleft>
+            <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
