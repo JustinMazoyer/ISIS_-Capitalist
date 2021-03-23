@@ -22,13 +22,21 @@ public class Services {
 
     World world = new World();
 
-    public World readWorldFromXml() {
+    public World readWorldFromXml(String username) {
         JAXBContext jaxbContext;
         try {
-            jaxbContext = JAXBContext.newInstance(World.class);
-            Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-            InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
-            world = (World) jaxbUnmarshaller.unmarshal(input);
+            if (username != null) {
+                jaxbContext = JAXBContext.newInstance(World.class);
+                Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+                InputStream input = getClass().getClassLoader().getResourceAsStream(username + "world.xml");
+                world = (World) jaxbUnmarshaller.unmarshal(input);
+            } else {
+                jaxbContext = JAXBContext.newInstance(World.class);
+                Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+                InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
+                world = (World) jaxbUnmarshaller.unmarshal(input);
+            }
+
         } catch (Exception ex) {
             System.out.println("Erreur lecture du fichier:" + ex.getMessage());
             ex.printStackTrace();
@@ -36,20 +44,28 @@ public class Services {
         return world;
     }
 
-    public void saveWordlToXml (World world) {
+    public void saveWordlToXml(World world, String username) {
         JAXBContext jaxbContext;
         try {
-            jaxbContext = JAXBContext.newInstance(World.class);
-            Marshaller march = jaxbContext.createMarshaller();            
-            OutputStream output = new FileOutputStream("world.xml");
-            march.marshal(world, output);
+            if (username != null) {
+                jaxbContext = JAXBContext.newInstance(World.class);
+                Marshaller march = jaxbContext.createMarshaller();
+                OutputStream output = new FileOutputStream(username + "world.xml");
+                march.marshal(world, output);
+            } else {
+                jaxbContext = JAXBContext.newInstance(World.class);
+                Marshaller march = jaxbContext.createMarshaller();
+                OutputStream output = new FileOutputStream("world.xml");
+                march.marshal(world, output);
+            }
         } catch (Exception ex) {
             System.out.println("Erreur écriture du fichier:" + ex.getMessage());
             ex.printStackTrace();
         }
     }
 
-    public World getWorld() {
-        return readWorldFromXml();
+    public World getWorld(String username) {
+        return readWorldFromXml(username);
     }
+
 }

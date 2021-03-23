@@ -2,7 +2,7 @@
 <world>
     <name>Kanto</name>
     <logo>icones/Kanto.png</logo>
-    <money>0</money>
+    <money>15500</money>
     <score>0</score>
     <totalangels>0</totalangels>
     <activeangels>0</activeangels>
@@ -16,7 +16,7 @@
             <cout>4</cout>
             <croissance>1.07</croissance>
             <revenu>1</revenu>
-            <vitesse>1000</vitesse>
+            <vitesse>500</vitesse>
             <quantite>1</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
@@ -39,7 +39,7 @@
             <cout>50</cout>
             <croissance>1.15</croissance>
             <revenu>10</revenu>
-            <vitesse>3000</vitesse>
+            <vitesse>1000</vitesse>
             <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
@@ -62,7 +62,7 @@
             <cout>500</cout>
             <croissance>1.25</croissance>
             <revenu>100</revenu>
-            <vitesse>5000</vitesse>
+            <vitesse>1500</vitesse>
             <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>

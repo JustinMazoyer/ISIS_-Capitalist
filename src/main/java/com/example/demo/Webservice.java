@@ -6,10 +6,12 @@
 package com.example.demo;
 
 import generated.World;
+import javax.servlet.http.HttpServletRequest;
 import static javax.swing.text.html.FormSubmitEvent.MethodType.GET;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
@@ -23,13 +25,12 @@ public class Webservice {
  public Webservice() {
  services = new Services();
  }
- @GET
- @Path("world")
- @Produces({MediaType.APPLICATION_XML,MediaType.APPLICATION_JSON})
- public Response getWorld() {
-     World world =services.getWorld();
-     services.saveWordlToXml(world);
- return Response.ok(world).build();
+@GET
+@Path("world")
+@Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+public Response getWorld(@Context HttpServletRequest request) {
+ String username = request.getHeader("X-user");
+ return Response.ok(services.getWorld(username)).build();
  }
 
 }
